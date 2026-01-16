@@ -327,7 +327,7 @@ export default function VirementPage({ navigate, onVirementSuccess }) {
       {/* Contenu */}
       <main className="max-w-4xl mx-auto px-4 py-6 pb-24">
         {/* Solde disponible */}
-        <div className="bg-emerald-600 rounded-xl p-6 text-white mb-6 shadow-lg">
+        <div className="bg-blue-600 rounded-xl p-6 text-white mb-6 shadow-lg">
           <p className="text-emerald-100 text-sm mb-1">Solde disponible</p>
           <h2 className="text-3xl font-bold">
             {user?.balance?.toLocaleString('fr-FR', { 

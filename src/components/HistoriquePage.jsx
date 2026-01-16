@@ -83,7 +83,7 @@ export default function HistoriquePage({ navigate }) {
       {/* Contenu */}
       <main className="max-w-4xl mx-auto px-4 py-6 pb-24">
         {/* Solde actuel */}
-        <div className="bg-emerald-600 rounded-xl p-6 text-white mb-6 shadow-lg">
+        <div className="bg-blue-600 rounded-xl p-6 text-white mb-6 shadow-lg">
           <p className="text-emerald-100 text-sm mb-1">Solde actuel</p>
           <h2 className="text-3xl font-bold">
             {user?.balance?.toLocaleString('fr-FR', { 
@@ -98,7 +98,7 @@ export default function HistoriquePage({ navigate }) {
           <button 
             onClick={() => setFilterType('all')}
             className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition ${
-              filterType === 'all' ? 'bg-emerald-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'
+              filterType === 'all' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'
             }`}
           >
             Tout

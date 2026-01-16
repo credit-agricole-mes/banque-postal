@@ -51,7 +51,7 @@ export default function Header({ onNavigateToLogin, onNavigateToInscription }) {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-2">
                 <img 
-                  src="/images/logo postal.jpeg" 
+                  src="/images/I11.jpeg" 
                   alt="La Banque Postale" 
                   className="h-8 w-auto"
                 />
