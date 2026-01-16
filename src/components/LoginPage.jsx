@@ -189,7 +189,7 @@ export default function LoginPage({ navigate }) {
             <button 
               type="button"
               onClick={() => alert('Fonctionnalité à venir')}
-              className="text-sm text-emerald-600 hover:underline"
+              className="text-sm text-blue-600 hover:underline"
             >
               Mot de passe oublié ?
             </button>
