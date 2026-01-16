@@ -241,7 +241,7 @@ export default function InscriptionPage({ navigate }) {
           <button 
             type="submit"
             disabled={loading}
-            className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-lg font-medium transition disabled:bg-emerald-400 flex items-center justify-center"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition disabled:bg-blue-400 flex items-center justify-center"
           >
             {loading ? (
               <>
@@ -263,7 +263,7 @@ export default function InscriptionPage({ navigate }) {
             <button 
               type="button"
               onClick={() => navigate('login')}
-              className="text-emerald-600 hover:underline font-medium"
+              className="text-blue-600 hover:underline font-medium"
             >
               Se connecter
             </button>
